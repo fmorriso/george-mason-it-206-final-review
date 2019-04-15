@@ -9,16 +9,19 @@ import javax.swing.UIManager;
 public class Driver {
     public static void main(String[] args) {
         makeDialogsEasierToSee(64);
-
+        
+        /*
         A first = new A();
 
         first.method1();
         first.method2();
+        */
 
         B second = new B();
-        
-        second.method1();
+
+        second.method1(); // calls method1 in class A
         second.method2();
+        second.method3();
     }
 
     /**
