@@ -14,7 +14,13 @@ public class Driver {
 
         first.method1();
         first.method2();
+
+        B second = new B();
+        
+        second.method1();
+        second.method2();
     }
+
     /**
 	 * Changes the font size used in JOptionPane.showInputDialogs to make them more
 	 * ADA section 508 compliant by making the text size larger, which is very nice
