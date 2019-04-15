@@ -1,3 +1,4 @@
+// George Mason - IT 206 - Final Review
 public abstract class Employee{
 
     private double salary;

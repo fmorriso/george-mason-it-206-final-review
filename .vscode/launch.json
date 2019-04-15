@@ -5,6 +5,20 @@
             "name": "CodeLens (Launch) - DriverPerson",
             "request": "launch",
             "mainClass": "DriverPerson",
+            "projectName": "final-review_4cf920bb"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DriverEmployee",
+            "request": "launch",
+            "mainClass": "DriverEmployee",
+            "projectName": "final-review_4cf920bb"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DriverPerson",
+            "request": "launch",
+            "mainClass": "DriverPerson",
             "projectName": "final-review_701bc8fb"
         },
         {
