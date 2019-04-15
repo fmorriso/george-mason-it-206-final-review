@@ -3,7 +3,7 @@ import javax.swing.JOptionPane;
 public class DriverPerson {
     public static void main(String[] args) {
         DialogHelper.makeDialogsEasierToSee(42);
-        double x = 3.14159;
+        // double x = 3.14159;
         //int i = (int) x;
         String xyz = "ABCDEFG";
         xyz = "Naria"; // makes an "orphan" out of "ABCDEFGH" until garbage collected
