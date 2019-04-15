@@ -5,6 +5,6 @@
 			<accessrule kind="accessible" pattern="javafx/**"/>
 		</accessrules>
 	</classpathentry>
-<classpathentry kind="scr" path="" />
-<classpathentry kind="output" path=""/>
+	<classpathentry kind="src" path=""/>
+	<classpathentry kind="output" path=""/>
 </classpath>

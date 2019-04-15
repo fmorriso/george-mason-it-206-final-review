@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - DriverEmployee",
+            "request": "launch",
+            "mainClass": "DriverEmployee",
+            "projectName": "final-review_701bc8fb"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - DriverAB",
             "request": "launch",
             "mainClass": "DriverAB",

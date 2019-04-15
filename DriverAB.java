@@ -1,11 +1,4 @@
-import java.awt.Font;
-
-import java.util.*;
-
-import javax.swing.JDialog;
-//import javax.swing.JOptionPane;
-import javax.swing.UIManager;
-
+// George Mason University - IT 206 - Final Review
 public class DriverAB {
     
     public static void main(String[] args) {

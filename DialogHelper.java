@@ -3,7 +3,6 @@ import java.awt.Font;
 import java.util.*;
 
 import javax.swing.JDialog;
-import javax.swing.JOptionPane;
 import javax.swing.UIManager;
 
 public class DialogHelper {
