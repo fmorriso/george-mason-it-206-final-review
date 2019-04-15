@@ -3,28 +3,11 @@ import java.awt.Font;
 import java.util.*;
 
 import javax.swing.JDialog;
-//import javax.swing.JOptionPane;
+import javax.swing.JOptionPane;
 import javax.swing.UIManager;
 
-public class Driver {
-    public static void main(String[] args) {
-        makeDialogsEasierToSee(64);
-        
-        /*
-        A first = new A();
-
-        first.method1();
-        first.method2();
-        */
-
-        B second = new B();
-
-        second.method1(); // calls method1 in class A
-        second.method2();
-        second.method3();
-    }
-
-    /**
+public class DialogHelper {
+/**
 	 * Changes the font size used in JOptionPane.showInputDialogs to make them more
 	 * ADA section 508 compliant by making the text size larger, which is very nice
 	 * for older people and anyone else with vision problems.
@@ -32,7 +15,7 @@ public class Driver {
 	/**
 	 * @param fontSize - size of the font in pixels
 	 */
-	private static void makeDialogsEasierToSee(int fontSize)
+	public static void makeDialogsEasierToSee(int fontSize)
 	{
 		// This next one is very strange; but, without it,
 		// any subsequent attempt to set InternalFrame.titleFont will
@@ -73,4 +56,5 @@ public class Driver {
 		UIManager.put("Label.font", boldFont);
 		UIManager.put("InternalFrame.titleFont", boldFont);
 	}
+
 }
