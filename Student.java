@@ -49,8 +49,4 @@ public class Student extends Person {
         return "This student says goodbye.";
     }
 
-    @Override
-    public int compareTo(Object o) {
-        return 0;
-    }
 }
