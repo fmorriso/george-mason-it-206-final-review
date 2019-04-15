@@ -35,12 +35,12 @@ public class Faculty extends Person {
         this.department = department;
     }
 
-    @Override
+   
     public String hello() {
         return "Hello, I'm a member of the faculty.";
     }
 
-    @Override
+   
     public String goodbye() {
         return "Goodbye from a faculty member.";
     }

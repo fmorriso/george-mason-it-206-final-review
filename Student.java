@@ -1,11 +1,14 @@
 public class Student extends Person {
     private String classLevel;
     private String major;
+    private static final int MAX_GRADES = 5;
+    private int[] grades;
 
     public Student(String GNumber, String firstName, String lastName, String classLevel, String major) {
         super(GNumber, firstName, lastName);
         this.classLevel = classLevel;
         this.major = major;
+        this.grades = new int[MAX_GRADES];
     }
 
     /**
@@ -36,13 +39,18 @@ public class Student extends Person {
         this.classLevel = classLevel;
     }
 
-    @Override
+    
     public String hello() {
         return "Hello, I'm a student.";
     }
 
-    @Override
+   
     public String goodbye() {
         return "This student says goodbye.";
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        return 0;
     }
 }

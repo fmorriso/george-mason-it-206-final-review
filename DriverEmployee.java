@@ -13,7 +13,7 @@ public class DriverEmployee {
 
         Employee e1 = new Surgeon();        
         Employee e2 = new HairDresser();
-        Employee e3 = new Actor();
+        Actor e3 = new Actor();
         Employee e4 = new Tailor();
 
         allEmployees.add(e1);
@@ -24,7 +24,7 @@ public class DriverEmployee {
         String title = "DriverEmployee";
         String message = "Employee cuts:\n";
         for(Employee emp: allEmployees){
-            message += emp.cut();
+            message += emp.cut(); // < 
             message += "\n";
         }
         JOptionPane.showMessageDialog(null, message, title, JOptionPane.INFORMATION_MESSAGE);
