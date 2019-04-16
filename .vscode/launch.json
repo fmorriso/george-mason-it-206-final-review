@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - DriverVehicle",
+            "request": "launch",
+            "mainClass": "DriverVehicle",
+            "projectName": "final-review_4cf920bb"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - DriverPerson",
             "request": "launch",
             "mainClass": "DriverPerson",
