@@ -3,11 +3,7 @@ public abstract class Person {
     private String firstName;
     private String lastName;
 
-    public Person(String GNumber, String firstName, String lastName){
-        this.GNumber = GNumber;
-        this.firstName = firstName;
-        this.lastName = lastName;
-    }
+    
     /**
      * @return the gNumber
      */

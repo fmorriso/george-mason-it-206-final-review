@@ -5,8 +5,8 @@ public class DriverPerson {
         DialogHelper.makeDialogsEasierToSee(42);
         // double x = 3.14159;
         //int i = (int) x;
-        String xyz = "ABCDEFG";
-        xyz = "Naria"; // makes an "orphan" out of "ABCDEFGH" until garbage collected
+        //String xyz = "ABCDEFG";
+        //xyz = "Naria"; // makes an "orphan" out of "ABCDEFGH" until garbage collected
         //ILLEGAL : Person p = new Person("a", "b", "c", "d");
         Person naira = new Student("123456", "Naira", "Ali", "Sophomore", "Information Technology");
         String message = naira.hello();

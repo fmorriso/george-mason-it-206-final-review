@@ -4,11 +4,27 @@ public class Student extends Person {
     private static final int MAX_GRADES = 5;
     private int[] grades;
 
+    @SuppressWarnings("unused")
+    private Student() {
+        /* prevent uninitialized instances */
+    }
+
     public Student(String GNumber, String firstName, String lastName, String classLevel, String major) {
-        super(GNumber, firstName, lastName);
+        setLastName(GNumber);
+        setFirstName(firstName);
+        setLastName(lastName);
+
         this.classLevel = classLevel;
         this.major = major;
         this.grades = new int[MAX_GRADES];
+        
+        clearGrades();
+    }
+
+    private void clearGrades() {
+        for(int i = 0; i < grades.length; i++){
+            grades[i] = 0;
+        }
     }
 
     /**

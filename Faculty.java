@@ -3,7 +3,11 @@ public class Faculty extends Person {
     private double salary;
 
     public Faculty(String GNumber, String firstName, String lastName, String department, double salary){
-        super(GNumber, firstName, lastName);
+        
+        setLastName(GNumber);
+        setFirstName(firstName);
+        setLastName(lastName);
+        
         this.department = department;
         this.salary = salary;
     }
