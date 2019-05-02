@@ -2,7 +2,7 @@ import javax.swing.JOptionPane;
 
 public class DriverPerson {
     public static void main(String[] args) {
-        DialogHelper.makeDialogsEasierToSee(42);
+        DialogHelper.makeDialogsEasierToSee(24);
         // double x = 3.14159;
         //int i = (int) x;
         //String xyz = "ABCDEFG";
