@@ -4,7 +4,7 @@ public class DriverVehicle {
 
     private static final String title = "Sedans";
     public static void main(String[] args) {
-        DialogHelper.makeDialogsEasierToSee(42);
+        DialogHelper.makeDialogsEasierToSee(33);
 
         // Following is polymoprhic because the "declaring type"
         // (the one on the left of the = sign) is the more generic

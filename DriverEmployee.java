@@ -7,7 +7,7 @@ public class DriverEmployee {
 
     public static void main(String[] args) {
       
-        DialogHelper.makeDialogsEasierToSee(42);
+        DialogHelper.makeDialogsEasierToSee(33);
         
         List<Employee> allEmployees = new ArrayList<Employee>();
 

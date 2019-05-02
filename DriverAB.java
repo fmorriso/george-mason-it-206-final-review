@@ -4,7 +4,7 @@ public class DriverAB {
     public static void main(String[] args) {
         
     
-		DialogHelper.makeDialogsEasierToSee(64);
+		DialogHelper.makeDialogsEasierToSee(32);
         
         /*
         A first = new A();
