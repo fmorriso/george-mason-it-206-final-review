@@ -31,7 +31,6 @@ public class DriverPerson {
 
         Student s2 = new Student("14567", "Mary", "Smith", "Freshman", "Art History");
 
-
         Person[] people = new Person[3];
         people[0] = naira;
         people[1] = morrison;
